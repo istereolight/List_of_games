@@ -6,7 +6,7 @@ export default function FilterableGameList({ games = [] }) {
   return (
     <div className="filterable-game-list">
       <SearchBar />
-      <GameList />
+      <GameList games={ games }/>
     </div>
   )
 }
